@@ -205,7 +205,7 @@ def run():
 
     verify_archived_inputs()
     report['status']='passed'
-    (HERE/'results.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+    (HERE/'results.json').write_bytes(json.dumps(report,indent=2).encode('utf-8'))
     print(json.dumps(report,indent=2))
 
 if __name__=='__main__':run()

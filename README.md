@@ -3,7 +3,7 @@
 Finite computational supplement for **Strict State Hierarchies for Graph
 Homomorphism Polynomials**, by Yue Wang.
 
-Version: **v1.0.0**. The repository contains verification code and data.
+Version: **v1.0.1**. The repository contains verification code and data.
 
 ## Reproduce
 
@@ -58,9 +58,11 @@ metadata and the CI workflow are outside that manifest.
 
 ## Versioned download
 
-[Release v1.0.0](https://github.com/wangyuer1-lang/markstrom-state-hierarchy-certificates/releases/tag/v1.0.0)
+[Release v1.0.1](https://github.com/wangyuer1-lang/markstrom-state-hierarchy-certificates/releases/tag/v1.0.1)
 contains `state_hierarchy_certificates.zip` and its SHA-256 checksum.
 The archive contains the seven supplement files listed above at its root.
 The manuscript cites this release rather than the changing default branch.
 
-GitHub Actions runs the checks on Python 3.9, 3.12 and 3.13.
+GitHub Actions runs the checks on Python 3.9, 3.12 and 3.13 on both
+Windows and Linux. Version 1.0.1 makes regenerated JSON byte-identical
+across platforms; all mathematical inputs and numerical results are unchanged.
