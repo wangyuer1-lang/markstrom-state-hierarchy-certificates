@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this version when using these computational certificates."
+type: software
+title: "Strict State Hierarchies for Graph Homomorphism Polynomials: Computational Certificates"
+authors:
+  - family-names: Wang
+    given-names: Yue
+version: 1.0.0
+date-released: 2026-10-08
+url: "https://github.com/wangyuer1-lang/markstrom-state-hierarchy-certificates"
+repository-code: "https://github.com/wangyuer1-lang/markstrom-state-hierarchy-certificates"

@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.pdf
+*.tex
+*.bib
+*.aux
+*.log
+*.out
